@@ -54,6 +54,6 @@ mC = 0
 if len(mList) == recCount(toMatch, c):
     OUT = recMatch(mList, toMatch, outList, mC)[0]
 else:
-    in0Len = "IN[0] length = " + str(recCount(mList, c))
+    in0Len = "IN[0] length = " + str(len(mList))
     in1Len = "IN[1] length = " + str(recCount(toMatch, c))
     OUT = ["List lengths do not match.", in0Len, in1Len]
